@@ -10,6 +10,7 @@ const { Provider } = ProductContext;
 export interface Props {
   product: Product;
   children?: ReactElement | ReactElement[];
+  className?: string;
 }
 
 export const ProductCard = ({ children, product }: Props) => {
