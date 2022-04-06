@@ -1,4 +1,5 @@
 import { Props as ProductCardProps } from "../components/ProductCard";
+import { PropsTitle } from "../components/ProductTitle";
 
 export interface Product {
   id: string;
@@ -14,13 +15,7 @@ export interface ProductContextProps {
 
 export interface ProductCardHOCProps {
   ({ children, product }: ProductCardProps): JSX.Element;
-  Title: ({
-    title,
-    className,
-  }: {
-    title?: string;
-    className?: string;
-  }) => JSX.Element;
+  Title: (Props: PropsTitle) => JSX.Element;
   Image: ({
     img,
     className,
