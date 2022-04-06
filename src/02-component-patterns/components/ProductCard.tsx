@@ -13,7 +13,7 @@ export interface Props {
   className?: string;
 }
 
-export const ProductCard = ({ children, product }: Props) => {
+export const ProductCard = ({ children, product, className }: Props) => {
   const { counter, increaseBy } = useProduct();
 
   return (
@@ -24,7 +24,7 @@ export const ProductCard = ({ children, product }: Props) => {
         product,
       }}
     >
-      <div className={styles.productCard}>{children}</div>
+      <div className={`${styles.productCard} ${className}`}>{children}</div>
     </Provider>
   );
 };
