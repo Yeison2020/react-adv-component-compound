@@ -9,7 +9,7 @@
 .custom-img {
   border-radius: 20px;
   padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
   width: calc(100% - 30px);
 }
