@@ -1,5 +1,7 @@
 import { Props as ProductCardProps } from "../components/ProductCard";
 import { PropsTitle } from "../components/ProductTitle";
+import { PropsImage } from "../components/ProductImage";
+import { PropsButtons } from "../components/ProductButtons";
 
 export interface Product {
   id: string;
@@ -16,12 +18,6 @@ export interface ProductContextProps {
 export interface ProductCardHOCProps {
   ({ children, product }: ProductCardProps): JSX.Element;
   Title: (Props: PropsTitle) => JSX.Element;
-  Image: ({
-    img,
-    className,
-  }: {
-    img?: string;
-    className?: string;
-  }) => JSX.Element;
-  Buttons: ({ className }: { className?: string }) => JSX.Element;
+  Image: (Props: PropsImage) => JSX.Element;
+  Buttons: (Props: PropsButtons) => JSX.Element;
 }
