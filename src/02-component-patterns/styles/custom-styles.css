@@ -5,3 +5,11 @@
 .text-white {
   color: white;
 }
+
+.custom-img {
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: calc(100% - 30px);
+}

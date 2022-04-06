@@ -31,7 +31,7 @@ export const ShoppingPage = () => {
         </ProductCard>
 
         <ProductCard product={product} className="bg-dark">
-          <ProductImage />
+          <ProductImage className="custom-img" />
           <ProductTitle className="text-white" title="Caffe Con leche Normal" />
           <ProductButtons />
         </ProductCard>
