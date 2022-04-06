@@ -32,7 +32,7 @@ export const ShoppingPage = () => {
 
         <ProductCard product={product} className="bg-dark">
           <ProductImage />
-          <ProductTitle />
+          <ProductTitle className="text-white" />
           <ProductButtons />
         </ProductCard>
       </div>
