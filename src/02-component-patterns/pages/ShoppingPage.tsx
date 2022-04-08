@@ -45,7 +45,7 @@ export const ShoppingPage = () => {
         </ProductCard>
 
         {/* Applying CSS Properties */}
-        <ProductCard product={product}>
+        <ProductCard product={product} style={{ backgroundColor: "#70D1F8" }}>
           <ProductImage />
           <ProductTitle title="Caffe Con leche CSS" />
           <ProductButtons />
