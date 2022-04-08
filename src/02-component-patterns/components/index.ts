@@ -11,6 +11,7 @@ export { ProductButtons } from "./ProductButtons";
 export { ProductImage } from "./ProductImage";
 export { ProductTitle } from "./ProductTitle";
 
+// Attached Object to Parent Component
 export const ProductCard: ProductCardHOCProps = Object.assign(ProductCardHOC, {
   Title: ProductTitle,
   Image: ProductImage,
