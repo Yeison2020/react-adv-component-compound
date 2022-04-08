@@ -45,14 +45,10 @@ export const ShoppingPage = () => {
         </ProductCard>
 
         {/* Applying CSS Properties */}
-        <ProductCard product={product} className="bg-dark">
-          <ProductImage className="custom-img" />
-          <ProductTitle
-            className="text-white"
-            title="Caffe Con leche Normal"
-            activeClass="active"
-          />
-          <ProductButtons className="custom-buttons" />
+        <ProductCard product={product}>
+          <ProductImage />
+          <ProductTitle title="Caffe Con leche Normal" />
+          <ProductButtons />
         </ProductCard>
       </div>
     </div>
