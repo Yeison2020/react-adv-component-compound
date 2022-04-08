@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { ProductContext } from "./ProductCard";
 
 import styles from "../styles/styles.module.css";
+
+// Internal Interface
 export interface PropsButtons {
   className?: string;
   activeClass?: string;
