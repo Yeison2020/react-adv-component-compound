@@ -48,7 +48,7 @@ export const ShoppingPage = () => {
         <ProductCard product={product} style={{ backgroundColor: "#70D1F8" }}>
           <ProductImage />
           <ProductTitle title="Caffe Con leche CSS" />
-          <ProductButtons />
+          <ProductButtons style={{ display: "flex", justifyContent: "end" }} />
         </ProductCard>
       </div>
     </div>
